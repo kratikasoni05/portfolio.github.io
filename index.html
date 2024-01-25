@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<script src="https://kit.fontawesome.com/22e9176f3d.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assests/images/logo.png">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> FULL STACK WEBSITE DEVELOPER</p>
+                <h1>Hi, I'm <span>kratika</span> soni<br> from India</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assests/images/e7aacd1e-2042-4747-b346-92bb49c5c4a8.jpeg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt accusamus quo atque architecto aliquid! Necessitatibus excepturi at maiores perferendis ipsam vero, laborum est provident! Eius et dicta vitae sunt, at unde nemo adipisci delectus aliquam repudiandae. Quam doloribus voluptate, odit sed expedita harum ducimus minima excepturi impedit animi dolore in tempora quas alias dolor, obcaecati consectetur voluptatem commodi repellendus nostrum!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('SKILLS')" >SKILLS</p>
+                    <p class="tab-links" onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
+                    <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                </div>
+                <div class="tab-contents active-tab" id="SKILLS">
+                    <ul>
+                        <li> <span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li> <span>website development</span><br>Web development</li>
+                        <li> <span>Product Managment</span><br>Managing product and project</li>
+                        <li> <span>Digital  Marketing</span><br>social media Managment and SEO</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="EXPERIENCE">
+                    <ul>
+                        <li> <span>Software Developer</span><br>DEVCORPS INC. 02/08/2023-31/10/2023</li>
+                        <li> <span>Project Manager Intern.</span><br>UPREVOL TECHNOLOGIES. 20/05/2023-20/07/2023</li>
+                        <li> <span>Campus Represenative</span><br>GUBY ROGERS. 01/07/2022-15/08/2022</li>
+                        <li> <span>DIRECTOR</span><br>DIRECTOR- 02/2020-12/2022</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="EDUCATION">
+                    <ul>
+                        <li> <span>2021</span><br>Bachlors in computer application</li>
+                        <li> <span>2020</span><br>12th</li>
+                        <li> <span>2019</span><br>10th</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quas ex, amet quidem, labore quibusdam delectus non esse at magnam iusto laboriosam itaque, velit repellendus?</p>
+                    <a  href="">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Ui/Ux Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quas ex, amet quidem, labore quibusdam delectus non esse at magnam iusto laboriosam itaque, velit repellendus?</p>
+                    <a  href="">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-shop"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quas ex, amet quidem, labore quibusdam delectus non esse at magnam iusto laboriosam itaque, velit repellendus?</p>
+                    <a  href="">Learn more</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assests/images/work-1.png" alt="travel">
+                    <div class="layer">
+                        <h3>Travel website</h3>
+                        <p>The website connects you to people around your locality and world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assests/images/work-2.png" alt="therepy">
+                    <div class="layer">
+                    <h3>Therapy website</h3>
+                    <p>The website connects you to therepistaround your locality and world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="./assests/images/work-3.png" alt="games">
+                    <div class="layer">
+                    <h3>Gaming website</h3>
+                    <p>The website connects you to games zone around your locality and world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------contact--->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me!</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kratika52002@gmaail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9024137761</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <button class="btn">
+                    <a href="./assests/images/KRATIKA SONI (1).pdf" download>Download CV</a>
+                </button>
+            </div>
+            <div class="contact-right">
+                <h1>Have Any Enquiry!</h1>
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email address" required>
+                    <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/22e9176f3d.js" crossorigin="anonymous"></script>
+    <script>
+        var tablinks=  document.getElementsByClassName("tab-links");
+        var tabcontents=  document.getElementsByClassName("tab-contents");
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+         }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemeu.style.right="0";
+}
+function closemenu(){
+            sidemeu.style.right="-200px";
+}
+    </script>
+</body>
+</html>
